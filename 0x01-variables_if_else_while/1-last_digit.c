@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - A program to assign a random number to a variable
- * Return: 1 (Success)
+ * Return: 0 (Success)
 */
 int main(void)
 {
@@ -19,5 +19,5 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n", n, m);
 	else if (m < 6 && m != 0)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
-	return (1);
+	return (0);
 }
