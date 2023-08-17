@@ -19,6 +19,6 @@ else
 {
 printf("%d is %s\n", i, "zero");
 }
-return;
+return (0);
 
 }
