@@ -8,10 +8,15 @@
 
 int main(void)
 {
-	int num;
+	int c;
 
-	for (num = 0; num < 10; num++)
-		putchar(num);
+	c = 0;
+
+	while (c < 10)
+	{
+		putchar(c + '0');
+		c++;
+	}
 	putchar('\n');
 	return (0);
 }
