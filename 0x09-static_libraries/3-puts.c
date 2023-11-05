@@ -10,6 +10,6 @@ void _puts(char *str);
 
 int main(void)
 {
-	puts("Grit makes me going no matter the obstacles");
+	puts("\"At the endo of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
 	return (0);
 }
